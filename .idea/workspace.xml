@@ -7,7 +7,8 @@
     <file path="/index.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413221664690" ignored="false" />
     <file path="/base.js" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413228723426" ignored="false" />
     <file path="/todo.client.js" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413224701560" ignored="false" />
-    <file path="/home.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413225803070" ignored="false" />
+    <file path="/home.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413233164526" ignored="false" />
+    <file path="/README.md" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413230966545" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="25" selection-start="5066" selection-end="5066" vertical-scroll-proportion="2.2040815">
+            <state line="117" column="25" selection-start="5066" selection-end="5066" vertical-scroll-proportion="-54.0">
               <folding>
                 <element signature="n#!!block;n#signinSetProperties#0" expanded="false" />
                 <element signature="n#!!block;n#signoutSetProperties#0" expanded="false" />
@@ -40,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="75" selection-start="2941" selection-end="2941" vertical-scroll-proportion="-3.6595745">
+            <state line="5" column="72" selection-start="204" selection-end="204" vertical-scroll-proportion="0.097402595">
               <folding />
             </state>
           </provider>
@@ -61,8 +62,9 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/js/todo.client.js" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/public/js/base.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -275,21 +277,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="75" selection-start="2941" selection-end="2941" vertical-scroll-proportion="-3.6595745">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="25" selection-start="5066" selection-end="5066" vertical-scroll-proportion="2.2040815">
+        <state line="117" column="25" selection-start="5066" selection-end="5066" vertical-scroll-proportion="-54.0">
           <folding>
             <element signature="n#!!block;n#signinSetProperties#0" expanded="false" />
             <element signature="n#!!block;n#signoutSetProperties#0" expanded="false" />
             <element signature="n#!!block;n#setModalAndDisplay#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="72" selection-start="204" selection-end="204" vertical-scroll-proportion="0.097402595">
+          <folding />
         </state>
       </provider>
     </entry>
