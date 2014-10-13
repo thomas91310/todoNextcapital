@@ -5,9 +5,9 @@ Todo app which calls a ruby API to get, post, put, delete accounts and todos.
 
 The application runs here on Heroku : http://todoappnextcapital.herokuapp.com
 
-- I used twitter bootstrap & AngularJS & the jQuery client that NextCapital provided to develop the app.
-- Added a remove property but it doesn't remove any todo since the API didn't provide a route for that.
-- The ordering of todos is just done on the client side since (drag the todo to change the order)
+I used twitter bootstrap & AngularJS & the jQuery client that NextCapital provided to develop the app.
+Added a remove property but it doesn't remove any todo since the API didn't provide a route for that.
+The ordering of todos is just done on the client side since (drag the todo to change the order)
 
 Requirements:
 - Sign up done -> done
