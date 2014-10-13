@@ -31,6 +31,7 @@ Todo = {
 
   createTodo: function(options, callback) { //ADDED CALLBACK
 
+      console.log("todo created ", options.todo);
     var successCallback = function(data) {
         callback(data);
     };

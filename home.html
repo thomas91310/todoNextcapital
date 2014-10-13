@@ -43,8 +43,8 @@
                 </header>
                 <section id="main">
                     <input id="toggle-all" type="checkbox" ng-model="allChecked" ng-click="checkAllTodos(allChecked)">
-                    <ul id="todo-list">
-                        <li ng-repeat="todo in todos | filter: choiceFilter |orderBy: 'is_complete'" ng-class="{completed : todo.is_complete, editing: todo.editing}" ng-dblclick="todo.editing = true">
+                    <ul ui-sortable ng-model="todos" id="todo-list">
+                        <li ng-repeat="todo in todos | filter: choiceFilter" ng-class="{completed : todo.is_complete, editing: todo.editing}" ng-dblclick="todo.editing = true">
                             <div class="view">
                                 <input type="checkbox" ng-model="todo.is_complete" class="toggle">
                                 <label>{{todo.description}}</label>
@@ -66,11 +66,13 @@
             </section>
         </div>
     </div>
+    <script src="public/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
     <script src="public/bower_components/angular/angular.min.js"></script>
     <script src="public/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script>
     <script src="public/bower_components/angular-strap/dist/angular-strap.min.js"></script>
     <script src="public/bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
-    <script src="public/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="public/js/todo.client.js"></script>
     <script src="public/js/base.js"></script>

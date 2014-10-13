@@ -1,4 +1,4 @@
-var todolist = angular.module('todolist', ['mgcrea.ngStrap', 'ngAnimate']);
+var todolist = angular.module('todolist', ['mgcrea.ngStrap', 'ngAnimate', 'ui']);
 
 todolist.directive('ngBlur', function() {
     return function(scope, elem, attrs) {
@@ -33,6 +33,7 @@ todolist.controller('TodoCtrl', ['$scope', 'filterFilter', '$http', '$modal', '$
 
     $scope.$watch('todos', function() {  //watching todos, call each time a todo is changed.
         if ($scope.todos != undefined) {
+            console.log("todos : ", $scope.todos);
             $scope.remaining = filterFilter($scope.todos, {is_complete: false}).length;
             $scope.allChecked = !$scope.remaining;
             $scope.todos.forEach(function(todo) {
