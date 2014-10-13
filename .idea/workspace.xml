@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413221664690" ignored="false" />
     <file path="/base.js" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413228723426" ignored="false" />
     <file path="/todo.client.js" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413224701560" ignored="false" />
-    <file path="/home.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413233721056" ignored="false" />
+    <file path="/home.html" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413238889776" ignored="false" />
     <file path="/README.md" changelist="d74f2b8a-103b-4524-8412-22944f2f2964" time="1413230966545" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,25 @@
       <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="114" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.54545456">
+            <state line="16" column="300" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.3116883">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modalResult.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modalResult.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modalSignup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modalSignup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="42" selection-start="558" selection-end="563" vertical-scroll-proportion="-6.285714">
               <folding />
             </state>
           </provider>
@@ -243,11 +261,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modalResult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/angular-animate/angular-animate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.16289593" />
@@ -268,9 +281,23 @@
         <state line="117" column="25" selection-start="5066" selection-end="5066" vertical-scroll-proportion="2.2040815" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modalResult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modalSignup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="558" selection-end="563" vertical-scroll-proportion="-6.285714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="114" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.54545456">
+        <state line="16" column="300" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.3116883">
           <folding />
         </state>
       </provider>
