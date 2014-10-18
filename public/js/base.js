@@ -25,15 +25,17 @@ todolist.controller('TodoCtrl', ['$scope', 'filterFilter', '$http', '$modal', '$
     $scope.location = $location; //set the location
 
     $scope.showModal = function(modalName) {
-        if (modalName == "signup")
+        if (modalName == "signup") {
             modalSignup.$promise.then(modalSignup.show);
+            $scope.formData.emailSignup = undefined;
+            $scope.formData.passwordSignup = undefined;
+        }
         else if (modalName == "result")
             modalResult.$promise.then(modalResult.show);
     };
 
     $scope.$watch('todos', function() {  //watching todos, call each time a todo is changed.
         if ($scope.todos != undefined) {
-            console.log("todos : ", $scope.todos);
             $scope.remaining = filterFilter($scope.todos, {is_complete: false}).length;
             $scope.allChecked = !$scope.remaining;
             $scope.todos.forEach(function(todo) {
@@ -132,8 +134,8 @@ todolist.controller('TodoCtrl', ['$scope', 'filterFilter', '$http', '$modal', '$
                         $scope.passwordSignin = signupCredidentials.password;
                         setModalAndDisplay($scope, "User signed up !", "Nobody is signed in, so we sign you in.", "result");
                         $scope.trySignin();
-                        $scope.formData.emailSignup = undefined;
-                        $scope.formData.passwordSignup = undefined;
+                        $("#emailSignup").val('');
+                        $("#passwordSignup").val('');
                     } else {
                         setModalAndDisplay($scope, "User signed up !", "Email : " + data.email + ". You can now sign out from this account and sign in with the new one !", "result");
                     }
