@@ -132,6 +132,8 @@ todolist.controller('TodoCtrl', ['$scope', 'filterFilter', '$http', '$modal', '$
                         $scope.passwordSignin = signupCredidentials.password;
                         setModalAndDisplay($scope, "User signed up !", "Nobody is signed in, so we sign you in.", "result");
                         $scope.trySignin();
+                        $scope.formData.emailSignup = undefined;
+                        $scope.formData.passwordSignup = undefined;
                     } else {
                         setModalAndDisplay($scope, "User signed up !", "Email : " + data.email + ". You can now sign out from this account and sign in with the new one !", "result");
                     }
