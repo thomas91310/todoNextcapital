@@ -10,8 +10,9 @@ Added a remove property but it doesn't remove any todo since the API didn't prov
 The ordering of todos is just done on the client side since (drag the todo to change the order)
 
 Requirements:
-- Sign up done -> done
-- Login done -> done
+- Sign up -> done
+- Login -> done
+- Log out -> done
 - Create todos -> done
 - Mark todos as complete -> done
 - Reorder todos with drag and drop -> done
